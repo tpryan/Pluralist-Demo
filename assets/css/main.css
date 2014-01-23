@@ -1,0 +1,9 @@
+body {
+  font-family: lora, serif; }
+
+a {
+  text-decoration: none; }
+
+nav li {
+  list-style: none;
+  text-transform: uppercase; }
