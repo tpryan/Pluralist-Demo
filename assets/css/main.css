@@ -109,7 +109,9 @@ nav li {
   display: inline-block;
   vertical-align: top;
   margin-left: 1%;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  width: 29%;
+  overflow: hidden; }
   .pod p {
     position: absolute;
     bottom: 0;
@@ -152,3 +154,121 @@ footer {
     margin-top: -40px; }
     footer .icon-box .icon {
       display: inline-block; }
+
+@media only screen and (max-width: 1000px) {
+  header nav ul li {
+    font-size: .8rem;
+    width: 12%; } }
+@media only screen and (max-width: 842px) {
+  header h1 {
+    margin: 10px 0 0 0; }
+  header nav {
+    width: 85%;
+    margin: 0;
+    position: static; }
+    header nav ul {
+      margin: 0; }
+      header nav ul li {
+        font-size: .8rem;
+        width: 18%;
+        text-align: center; }
+      header nav ul li:nth-child(1) {
+        width: 16%; }
+      header nav ul li:nth-child(2) {
+        width: 16%; }
+      header nav ul li:nth-child(3) {
+        margin-left: 0;
+        width: 21%; }
+      header nav ul li:nth-child(4) {
+        margin-left: 0;
+        width: 17%; }
+  header .icon-box {
+    border: 1px solid red;
+    position: static;
+    width: 55px;
+    margin: 0;
+    vertical-align: top; }
+    header .icon-box .icon {
+      display: inline; }
+      header .icon-box .icon img {
+        width: 25px; }
+
+  .content {
+    margin-top: 0; }
+
+  .promo {
+    width: 50%; } }
+@media only screen and (max-width: 655px) {
+  .hero h2 {
+    font-size: 2.2rem; }
+    .hero h2 em {
+      font-size: 6.5rem; }
+
+  footer nav li {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0; }
+  footer nav li:nth-child(3) {
+    margin-left: 0%;
+    text-align: center; }
+  footer nav li:nth-child(4) {
+    text-align: center; }
+  footer .icon-box {
+    display: none; } }
+@media only screen and (max-width: 582px) {
+  header nav {
+    width: 100%; }
+    header nav ul li {
+      font-size: 1.2rem;
+      width: 100%;
+      margin: 15px 0; }
+    header nav ul li:nth-child(1) {
+      width: 100%;
+      text-align: center; }
+    header nav ul li:nth-child(2) {
+      width: 100%;
+      text-align: center; }
+    header nav ul li:nth-child(3) {
+      width: 100%;
+      text-align: center; }
+    header nav ul li:nth-child(4) {
+      width: 100%;
+      text-align: center; }
+    header nav ul li:nth-child(5) {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 50px; }
+  header .icon-box {
+    display: none; }
+
+  .main {
+    margin-top: 20px; }
+
+  .hero {
+    width: 100%; }
+
+  .pod {
+    text-align: center;
+    width: 48%; }
+    .pod p {
+      width: 100%;
+      text-align: center; } }
+@media only screen and (max-width: 451px) {
+  .hero {
+    margin-bottom: 20px; }
+    .hero h2 {
+      top: 85px;
+      font-size: 1.2rem;
+      letter-spacing: .2rem;
+      padding: 0 0 0 20px; }
+      .hero h2 em {
+        font-size: 3.5rem;
+        margin-left: -5px; }
+
+  .pod {
+    width: 100%;
+    margin-bottom: 20px; }
+
+  .promo {
+    width: 100%;
+    margin-bottom: 20px; } }

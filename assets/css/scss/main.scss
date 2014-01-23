@@ -137,6 +137,8 @@ nav {
     vertical-align: top;
     margin-left: 1%;
     margin-bottom: 5px;
+    width: 29%;
+    overflow:hidden;
     p {
         position: absolute;
         bottom: 0;
@@ -192,3 +194,5 @@ footer {
         margin-top: -40px;
     }
 }
+
+@import 'responsive';

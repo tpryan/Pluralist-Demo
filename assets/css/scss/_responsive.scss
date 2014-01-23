@@ -1,0 +1,180 @@
+@media only screen and (max-width: 1000px) {
+    header{
+        nav{
+            ul{
+                li{
+                    font-size: .8rem;
+                    width: 12%;
+                }  
+            }    
+        }    
+    }    
+
+}
+
+@media only screen and (max-width: 842px) {
+    header{
+        h1{
+             margin: 10px 0 0 0;   
+        }    
+        nav{
+            width: 85%;
+            margin: 0;
+            position: static;
+            ul{
+                margin: 0;
+                li{
+                    font-size: .8rem;
+                    width: 18%;
+                    text-align: center;
+                }
+                li:nth-child(1) {
+                    width: 16%;
+                }
+                li:nth-child(2) {
+                    width: 16%;
+                }
+                li:nth-child(3) {
+                    margin-left: 0;
+                    width: 21%;
+                }
+                li:nth-child(4) {
+                    margin-left: 0;
+                    width: 17%;
+                }
+                
+            }    
+        }
+        .icon-box{
+            border: 1px solid red;
+            position: static;
+            width: 55px;
+            margin: 0;
+            vertical-align: top;
+            .icon{
+                
+                display: inline;
+                img{
+                    width: 25px;
+                }    
+            }    
+        }    
+    }
+    .content {
+        margin-top: 0;
+    }
+    .promo{
+         width: 50%;   
+    }
+}
+
+@media only screen and (max-width: 655px) {
+    .hero{
+        h2{
+            font-size: 2.2rem;
+            em{
+                font-size: 6.5rem;       
+            }
+        }    
+    }
+    
+    footer{
+         nav{
+            li{
+                 width: 100%;  
+                text-align: center;
+                padding: 20px 0;
+            }
+            li:nth-child(3) {
+                margin-left: 0%;
+                text-align: center;
+            }
+            li:nth-child(4) {
+                text-align: center;
+            }
+            }
+            .icon-box{
+                 display: none;   
+            }    
+    }    
+}
+
+@media only screen and (max-width: 582px) {
+    header{
+        nav{
+            width: 100%;
+            
+            ul{
+                li{
+                    font-size: 1.2rem;
+                    width: 100%;
+                    margin: 15px 0;
+                }
+                li:nth-child(1) {
+                    width: 100%;
+                    text-align: center;
+                }
+                li:nth-child(2) {
+                    width: 100%;
+                    text-align: center;
+                }
+                li:nth-child(3) {
+                    width: 100%;
+                    text-align: center;
+                }
+                li:nth-child(4) {
+                    width: 100%;
+                    text-align: center;
+                }
+                li:nth-child(5) {
+                    width: 100%;
+                    text-align: center;
+                    margin-bottom: 50px;
+                }
+            }    
+        }
+        .icon-box{
+             display:none;   
+        }    
+    }    
+    
+    .main{
+        margin-top: 20px;
+    }
+    .hero{
+         width: 100%;   
+    }
+    .pod{
+        text-align:center;
+        width: 48%;   
+        p{
+            width: 100%;
+            text-align:center;
+        }    
+    }    
+
+}
+@media only screen and (max-width: 451px) {
+    .hero{
+        margin-bottom: 20px;
+        h2{
+            top: 85px;
+            font-size: 1.2rem;
+            letter-spacing: .2rem;
+            padding: 0 0 0 20px;
+            em{
+                font-size: 3.5rem;
+                margin-left: -5px;
+            }
+        }    
+    }    
+    .pod{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .promo{
+         width: 100%;
+        margin-bottom: 20px;
+    }    
+    
+}    
